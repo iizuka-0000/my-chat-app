@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background: #282c34;
+  min-height: 100vh;
+}
+
+.name-field-box {
+  margin: 20px 0 0 100px;
+}
