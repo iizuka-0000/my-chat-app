@@ -1,9 +1,7 @@
 # My Chat App
----
 A sample chat app using React and Express.
 
 # Installation
----
 ## client
 ```
 cd client
@@ -16,7 +14,6 @@ npm i
 ```
 
 # Usage
----
 ## client
 ```
 cd client
@@ -35,10 +32,7 @@ Then open multiple localhost:3000 in your browser. And you can use my-chat-app.
 ![Demo Image 1](art/Demo.png)
 
 # Author
----
 https://github.com/iizuka-0000
 
-
 # License
----
 See LICENSE.
