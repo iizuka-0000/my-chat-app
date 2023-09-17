@@ -14,7 +14,6 @@ const PORT = 5000;
 let all_message = [];
 let number_disconnected_clients = 0;
 
-// 通信
 io.on('connection', (socket) => {
     socket.emit('existing_message', all_message);
 
@@ -25,7 +24,7 @@ io.on('connection', (socket) => {
 
     socket.on('disconnect', (e) => {
         number_disconnected_clients++
-        console.log('クライアントと切断  ' + number_disconnected_clients + '回目');
+        console.log('Disconnect from client: ' + number_disconnected_clients + 'times');
     });
 });
 
